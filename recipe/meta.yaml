@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: a9e61113126465a88090322e9681ff6f3c753d3c6559b0c86f963e8323dc20a0
+  sha256: e9cdca8a0d85fc25a9ce0d2d3113e8c2cedda35f50bcf5198f858d1da9da78f3
 
 build:
   script:
