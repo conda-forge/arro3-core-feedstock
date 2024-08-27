@@ -8,20 +8,50 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_python3.10.____cpython:
-        CONFIG: win_64_python3.10.____cpython
+      win_64_arro3_modulearro3-computepython3.10.____cpython:
+        CONFIG: win_64_arro3_modulearro3-computepython3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpython:
-        CONFIG: win_64_python3.11.____cpython
+      win_64_arro3_modulearro3-computepython3.11.____cpython:
+        CONFIG: win_64_arro3_modulearro3-computepython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpython:
-        CONFIG: win_64_python3.12.____cpython
+      win_64_arro3_modulearro3-computepython3.12.____cpython:
+        CONFIG: win_64_arro3_modulearro3-computepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.8.____cpython:
-        CONFIG: win_64_python3.8.____cpython
+      win_64_arro3_modulearro3-computepython3.8.____cpython:
+        CONFIG: win_64_arro3_modulearro3-computepython3.8.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.9.____cpython:
-        CONFIG: win_64_python3.9.____cpython
+      win_64_arro3_modulearro3-computepython3.9.____cpython:
+        CONFIG: win_64_arro3_modulearro3-computepython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.10.____cpython:
+        CONFIG: win_64_arro3_modulearro3-corepython3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.11.____cpython:
+        CONFIG: win_64_arro3_modulearro3-corepython3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.12.____cpython:
+        CONFIG: win_64_arro3_modulearro3-corepython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.8.____cpython:
+        CONFIG: win_64_arro3_modulearro3-corepython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.9.____cpython:
+        CONFIG: win_64_arro3_modulearro3-corepython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.10.____cpython:
+        CONFIG: win_64_arro3_modulearro3-iopython3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.11.____cpython:
+        CONFIG: win_64_arro3_modulearro3-iopython3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.12.____cpython:
+        CONFIG: win_64_arro3_modulearro3-iopython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.8.____cpython:
+        CONFIG: win_64_arro3_modulearro3-iopython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.9.____cpython:
+        CONFIG: win_64_arro3_modulearro3-iopython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
