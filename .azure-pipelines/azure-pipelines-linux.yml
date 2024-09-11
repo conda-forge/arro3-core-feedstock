@@ -20,10 +20,6 @@ jobs:
         CONFIG: linux_64_arro3_modulearro3-computepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_arro3_modulearro3-computepython3.8.____cpython:
-        CONFIG: linux_64_arro3_modulearro3-computepython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arro3_modulearro3-computepython3.9.____cpython:
         CONFIG: linux_64_arro3_modulearro3-computepython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -40,10 +36,6 @@ jobs:
         CONFIG: linux_64_arro3_modulearro3-corepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_arro3_modulearro3-corepython3.8.____cpython:
-        CONFIG: linux_64_arro3_modulearro3-corepython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arro3_modulearro3-corepython3.9.____cpython:
         CONFIG: linux_64_arro3_modulearro3-corepython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -58,10 +50,6 @@ jobs:
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arro3_modulearro3-iopython3.12.____cpython:
         CONFIG: linux_64_arro3_modulearro3-iopython3.12.____cpython
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_arro3_modulearro3-iopython3.8.____cpython:
-        CONFIG: linux_64_arro3_modulearro3-iopython3.8.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arro3_modulearro3-iopython3.9.____cpython:
