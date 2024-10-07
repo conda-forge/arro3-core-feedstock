@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ arro3_module }}
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: 9bcc675c5f122400fcb9185bebd1bc12cc68e0d6bf61d4efabc184b8baba25fa
+  sha256: af53b203ecc2a6dfc3a1ceb27857bdcf9a632632ca6fb4f2ab353e6c7ba4fa08
 
 build:
   script:
