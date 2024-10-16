@@ -44,6 +44,42 @@ jobs:
       osx_64_arro3_modulearro3-iopython3.9.____cpython:
         CONFIG: osx_64_arro3_modulearro3-iopython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-computepython3.10.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-computepython3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-computepython3.11.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-computepython3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-computepython3.12.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-computepython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-computepython3.9.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-computepython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-corepython3.10.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-corepython3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-corepython3.11.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-corepython3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-corepython3.12.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-corepython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-corepython3.9.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-corepython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-iopython3.10.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-iopython3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-iopython3.11.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-iopython3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-iopython3.12.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-iopython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arro3_modulearro3-iopython3.9.____cpython:
+        CONFIG: osx_arm64_arro3_modulearro3-iopython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
 
