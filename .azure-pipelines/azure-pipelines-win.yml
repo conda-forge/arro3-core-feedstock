@@ -17,6 +17,9 @@ jobs:
       win_64_arro3_modulearro3-computepython3.12.____cpython:
         CONFIG: win_64_arro3_modulearro3-computepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-computepython3.13.____cp313:
+        CONFIG: win_64_arro3_modulearro3-computepython3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
       win_64_arro3_modulearro3-computepython3.9.____cpython:
         CONFIG: win_64_arro3_modulearro3-computepython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -28,6 +31,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_arro3_modulearro3-corepython3.12.____cpython:
         CONFIG: win_64_arro3_modulearro3-corepython3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-corepython3.13.____cp313:
+        CONFIG: win_64_arro3_modulearro3-corepython3.13.____cp313
         UPLOAD_PACKAGES: 'True'
       win_64_arro3_modulearro3-corepython3.9.____cpython:
         CONFIG: win_64_arro3_modulearro3-corepython3.9.____cpython
@@ -41,9 +47,13 @@ jobs:
       win_64_arro3_modulearro3-iopython3.12.____cpython:
         CONFIG: win_64_arro3_modulearro3-iopython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
+      win_64_arro3_modulearro3-iopython3.13.____cp313:
+        CONFIG: win_64_arro3_modulearro3-iopython3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
       win_64_arro3_modulearro3-iopython3.9.____cpython:
         CONFIG: win_64_arro3_modulearro3-iopython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+    maxParallel: 12
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
