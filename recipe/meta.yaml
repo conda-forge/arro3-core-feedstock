@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.4.5" %}
 
 package:
   name: arro3-core
@@ -6,15 +6,17 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: f2f929b1f69d2837b39aafc443611f7bb0e51f8e3f7aa1f1537d855602c5af1f
+  sha256: 2315884508dc3b73a898fa534d24819e7fae58e20ef8b83c60cef75f172fb028
 
 build:
   script:
     - {{ PYTHON }} -m pip install ./arro3-core -vv
-  number: 2
+  number: 1
 
 requirements:
   build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - maturin >=1.7.0,<2.0                   # [build_platform != target_platform]

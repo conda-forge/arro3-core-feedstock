@@ -11,51 +11,51 @@ jobs:
       linux_64_arro3_modulearro3-computepython3.10.____cpython:
         CONFIG: linux_64_arro3_modulearro3-computepython3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-computepython3.11.____cpython:
         CONFIG: linux_64_arro3_modulearro3-computepython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-computepython3.12.____cpython:
         CONFIG: linux_64_arro3_modulearro3-computepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-computepython3.9.____cpython:
         CONFIG: linux_64_arro3_modulearro3-computepython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-corepython3.10.____cpython:
         CONFIG: linux_64_arro3_modulearro3-corepython3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-corepython3.11.____cpython:
         CONFIG: linux_64_arro3_modulearro3-corepython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-corepython3.12.____cpython:
         CONFIG: linux_64_arro3_modulearro3-corepython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-corepython3.9.____cpython:
         CONFIG: linux_64_arro3_modulearro3-corepython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-iopython3.10.____cpython:
         CONFIG: linux_64_arro3_modulearro3-iopython3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-iopython3.11.____cpython:
         CONFIG: linux_64_arro3_modulearro3-iopython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-iopython3.12.____cpython:
         CONFIG: linux_64_arro3_modulearro3-iopython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_arro3_modulearro3-iopython3.9.____cpython:
         CONFIG: linux_64_arro3_modulearro3-iopython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
   timeoutInMinutes: 360
   variables: {}
 
