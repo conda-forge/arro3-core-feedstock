@@ -1,7 +1,7 @@
 {% set version = "0.4.2" %}
 
 package:
-  name: {{ arro3_module }}
+  name: arro3-core
   version: {{ version }}
 
 source:
@@ -10,11 +10,8 @@ source:
 
 build:
   script:
-    - {{ PYTHON }} -m pip install ./arro3-core -vv  # [arro3_module == "arro3-core"]
-    - {{ PYTHON }} -m pip install ./arro3-compute -vv  # [arro3_module == "arro3-compute"]
-    - {{ PYTHON }} -m pip install ./arro3-io -vv  # [arro3_module == "arro3-io"]
-    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 1
+    - {{ PYTHON }} -m pip install ./arro3-core -vv
+  number: 2
 
 requirements:
   build:
@@ -31,14 +28,10 @@ requirements:
     - pip
   run:
     - python
-    - arro3-core  # [arro3_module == "arro3-compute"]
-    - arro3-core  # [arro3_module == "arro3-io"]
 
 test:
   imports:
-    - arro3.core  # [arro3_module == "arro3-core"]
-    - arro3.compute  # [arro3_module == "arro3-compute"]
-    - arro3.io  # [arro3_module == "arro3-io"]
+    - arro3.core
   commands:
     - pip check
   requires:
