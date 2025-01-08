@@ -1,5 +1,3 @@
-arro3_module:
-- arro3-compute
 c_compiler:
 - gcc
 c_compiler_version:
@@ -21,7 +19,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.9.* *_cpython
+- 3.12.* *_cpython
 rust_compiler:
 - rust
 target_platform:
