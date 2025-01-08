@@ -18,7 +18,7 @@ Current build status
 
 
 <table>
-
+    
   <tr>
     <td>Azure</td>
     <td>
@@ -52,6 +52,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -77,6 +84,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -108,6 +122,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_python3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -136,6 +157,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_python3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -156,7 +184,6 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-arro3--core-green.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-arro3--io-green.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) |
 
 Installing arro3-core
 =====================
@@ -273,3 +300,4 @@ Feedstock Maintainers
 =====================
 
 * [@kylebarron](https://github.com/kylebarron/)
+
