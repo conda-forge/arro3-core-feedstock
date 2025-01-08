@@ -403,11 +403,14 @@ So this documents the process for handling these interlinked updates:
 
 1. Remove the file `conda_build_config.yaml`.
 2. Replace all instances of `{{ arro3_module }}` with `arro3-core` . Look at https://github.com/conda-forge/arro3-core-feedstock/pull/2/files for reference and do the inverse.
+3. In the PR, [rerender](https://conda-forge.org/docs/maintainer/updating_pkgs/#rerendering-feedstocks) by adding a comment `@conda-forge-admin, please rerender`.
 
 ### Then publish new versions of other namespace modules
 
 1. Restore the file `conda_build_config.yaml`.
 2. Replace all instances of `arro3-core` with `{{ arro3_module }}` . Look at https://github.com/conda-forge/arro3-core-feedstock/pull/2/files for reference and do the inverse.
+3. In the PR, [rerender](https://conda-forge.org/docs/maintainer/updating_pkgs/#rerendering-feedstocks) by adding a comment `@conda-forge-admin, please rerender`.
+
 
 Installing arro3-core
 ===================

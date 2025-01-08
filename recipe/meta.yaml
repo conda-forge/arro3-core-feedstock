@@ -11,6 +11,7 @@ source:
 build:
   script:
     - {{ PYTHON }} -m pip install ./arro3-core -vv
+    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
   number: 1
 
 requirements:
