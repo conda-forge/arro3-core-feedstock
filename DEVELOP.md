@@ -19,7 +19,9 @@ So this documents the process for handling these interlinked updates:
 
 1. Remove the file `conda_build_config.yaml`.
 2. Replace all instances of `{{ arro3_module }}` with `arro3-core` . Look at https://github.com/conda-forge/arro3-core-feedstock/pull/2/files for reference and do the inverse.
-3. In the PR, [rerender](https://conda-forge.org/docs/maintainer/updating_pkgs/#rerendering-feedstocks) by adding a comment `@conda-forge-admin, please rerender`.
+3. Create a PR building just arro3-core. In the PR, [rerender](https://conda-forge.org/docs/maintainer/updating_pkgs/#rerendering-feedstocks) by adding a comment `@conda-forge-admin, please rerender`.
+4. Merge the PR.
+5. If there was a bot PR to update for e.g. a new Python version, such as [#18](https://github.com/conda-forge/arro3-core-feedstock/pull/18), apply the `bot-rerun` label to the PR so that it gets created again from the latest main.
 
 ### Then publish new versions of other namespace modules
 
