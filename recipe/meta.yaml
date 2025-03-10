@@ -1,4 +1,4 @@
-{% set version = "0.4.5" %}
+{% set version = "0.4.6" %}
 
 package:
   name: {{ arro3_module }}
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: 2315884508dc3b73a898fa534d24819e7fae58e20ef8b83c60cef75f172fb028
+  sha256: dc9e6c8ab13c555034ada394be15f1a9f89472ea956c2e69e5a7afb3b0913260
 
 build:
   script:
@@ -14,7 +14,7 @@ build:
     - {{ PYTHON }} -m pip install ./arro3-compute -vv  # [arro3_module == "arro3-compute"]
     - {{ PYTHON }} -m pip install ./arro3-io -vv  # [arro3_module == "arro3-io"]
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 3
+  number: 0
 
 requirements:
   build:
