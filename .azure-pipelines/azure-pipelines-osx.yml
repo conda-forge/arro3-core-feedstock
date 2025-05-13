@@ -98,7 +98,7 @@ jobs:
       osx_arm64_arro3_modulearro3-iopython3.9.____cpython:
         CONFIG: osx_arm64_arro3_modulearro3-iopython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-    maxParallel: 25
+    maxParallel: 17
   timeoutInMinutes: 360
   variables: {}
 
