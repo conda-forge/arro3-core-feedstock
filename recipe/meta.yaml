@@ -14,7 +14,7 @@ build:
     - {{ PYTHON }} -m pip install ./arro3-compute -vv  # [arro3_module == "arro3-compute"]
     - {{ PYTHON }} -m pip install ./arro3-io -vv  # [arro3_module == "arro3-io"]
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -35,6 +35,7 @@ requirements:
     - python
     - arro3-core  # [arro3_module == "arro3-compute"]
     - arro3-core  # [arro3_module == "arro3-io"]
+    - typing_extensions >=4.6.0  # [py<312]
 
 test:
   imports:
