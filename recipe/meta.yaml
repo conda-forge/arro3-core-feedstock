@@ -1,7 +1,7 @@
 {% set version = "0.5.1" %}
 
 package:
-  name: {{ arro3_module }}
+  name: arro3-core-modules
   version: {{ version }}
 
 source:
@@ -9,43 +9,91 @@ source:
   sha256: 7baf4b62407cff38e3cb9f2bcedc2d394281f1c5fb1d92ec377f0d14acd5384a
 
 build:
-  script:
-    - {{ PYTHON }} -m pip install ./arro3-core -vv  # [arro3_module == "arro3-core"]
-    - {{ PYTHON }} -m pip install ./arro3-compute -vv  # [arro3_module == "arro3-compute"]
-    - {{ PYTHON }} -m pip install ./arro3-io -vv  # [arro3_module == "arro3-io"]
-    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
   number: 0
 
-requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - maturin >=1.7.0,<2.0                   # [build_platform != target_platform]
-    - {{ stdlib("c") }}
-    - {{ compiler("c") }}
-    - {{ compiler("rust") }}
-    - cargo-bundle-licenses
-  host:
-    - python
-    - maturin >=1.4.0,<2.0
-    - pip
-  run:
-    - python
-    - arro3-core  # [arro3_module == "arro3-compute"]
-    - arro3-core  # [arro3_module == "arro3-io"]
-    - typing_extensions >=4.6.0  # [py<312]
+outputs:
+  - name: arro3-core
+    script: build-pkg.sh    # [not win]
+    script: build-pkg.bat   # [win]
+    requirements:
+      build:
+        - python                                 # [build_platform != target_platform]
+        - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+        - maturin >=1.7.0,<2.0                   # [build_platform != target_platform]
+        - {{ stdlib("c") }}
+        - {{ compiler("c") }}
+        - {{ compiler("rust") }}
+        - cargo-bundle-licenses
+      host:
+        - python
+        - maturin >=1.4.0,<2.0
+        - pip
+      run:
+        - python
+        - typing_extensions >=4.6.0  # [py<312]    
+    test:
+      imports:
+        - arro3.core
+      commands:
+        - pip check
+      requires:
+        - pip
 
-test:
-  imports:
-    - arro3.core  # [arro3_module == "arro3-core"]
-    - arro3.compute  # [arro3_module == "arro3-compute"]
-    - arro3.io  # [arro3_module == "arro3-io"]
-  commands:
-    - pip check
-  requires:
-    - pip
+  - name: arro3-compute
+    script: build-pkg.sh    # [not win]
+    script: build-pkg.bat   # [win]
+    requirements:
+      build:
+        - python                                 # [build_platform != target_platform]
+        - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+        - maturin >=1.7.0,<2.0                   # [build_platform != target_platform]
+        - {{ stdlib("c") }}
+        - {{ compiler("c") }}
+        - {{ compiler("rust") }}
+        - cargo-bundle-licenses
+      host:
+        - python
+        - maturin >=1.4.0,<2.0
+        - pip
+      run:
+        - python
+        - arro3-core
+        - typing_extensions >=4.6.0  # [py<312]    
+    test:
+      imports:
+        - arro3.compute
+      commands:
+        - pip check
+      requires:
+        - pip
+
+  - name: arro3-io
+    script: build-pkg.sh    # [not win]
+    script: build-pkg.bat   # [win]
+    requirements:
+      build:
+        - python                                 # [build_platform != target_platform]
+        - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+        - maturin >=1.7.0,<2.0                   # [build_platform != target_platform]
+        - {{ stdlib("c") }}
+        - {{ compiler("c") }}
+        - {{ compiler("rust") }}
+        - cargo-bundle-licenses
+      host:
+        - python
+        - maturin >=1.4.0,<2.0
+        - pip
+      run:
+        - python
+        - arro3-core
+        - typing_extensions >=4.6.0  # [py<312]    
+    test:
+      imports:
+        - arro3.io
+      commands:
+        - pip check
+      requires:
+        - pip
 
 about:
   home: https://github.com/kylebarron/arro3
@@ -62,3 +110,4 @@ about:
 extra:
   recipe-maintainers:
     - kylebarron
+  feedstock_name: arro3-core
