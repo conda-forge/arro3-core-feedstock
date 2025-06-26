@@ -57,7 +57,7 @@ outputs:
         - pip
       run:
         - python
-        - arro3-core
+        - {{ pin_subpackage("arro3-core", exact=True) }}
         - typing_extensions >=4.6.0  # [py<312]    
     test:
       imports:
@@ -85,7 +85,7 @@ outputs:
         - pip
       run:
         - python
-        - arro3-core
+        - {{ pin_subpackage("arro3-core", exact=True) }}
         - typing_extensions >=4.6.0  # [py<312]    
     test:
       imports:
