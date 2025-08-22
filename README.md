@@ -1,5 +1,5 @@
-About arro3-core-modules-feedstock
-==================================
+About arro3-core-feedstock
+==========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arro3-core-feedstock/blob/main/LICENSE.txt)
 
@@ -59,13 +59,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_aarch64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -91,13 +84,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.13.____cp313" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -129,13 +115,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -161,13 +140,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -199,13 +171,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>win_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
@@ -233,13 +198,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23136&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/arro3-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
@@ -257,10 +215,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-arro3--core-green.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/arro3-core.svg)](https://anaconda.org/conda-forge/arro3-core) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-arro3--io-green.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/arro3-io.svg)](https://anaconda.org/conda-forge/arro3-io) |
 
-Installing arro3-core-modules
-=============================
+Installing arro3-core
+=====================
 
-Installing `arro3-core-modules` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `arro3-core` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -346,17 +304,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating arro3-core-modules-feedstock
-=====================================
+Updating arro3-core-feedstock
+=============================
 
-If you would like to improve the arro3-core-modules recipe or build a new
+If you would like to improve the arro3-core recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/arro3-core-modules-feedstock are
+Note that all branches in the conda-forge/arro3-core-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
