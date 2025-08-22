@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: arro3-core-modules
@@ -6,15 +6,15 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: 7baf4b62407cff38e3cb9f2bcedc2d394281f1c5fb1d92ec377f0d14acd5384a
+  sha256: c731ce1b0fb76f4d7278b0ce18d012ae48b5c5045b472da862f00d31cbaf8807
 
 build:
   number: 0
 
 outputs:
   - name: arro3-core
-    script: build-pkg.sh    # [not win]
-    script: build-pkg.bat   # [win]
+    script: build-pkg.sh  # [not win]
+    script: build-pkg.bat  # [win]
     requirements:
       build:
         - python                                 # [build_platform != target_platform]
@@ -40,8 +40,8 @@ outputs:
         - pip
 
   - name: arro3-compute
-    script: build-pkg.sh    # [not win]
-    script: build-pkg.bat   # [win]
+    script: build-pkg.sh  # [not win]
+    script: build-pkg.bat  # [win]
     requirements:
       build:
         - python                                 # [build_platform != target_platform]
@@ -68,8 +68,8 @@ outputs:
         - pip
 
   - name: arro3-io
-    script: build-pkg.sh    # [not win]
-    script: build-pkg.bat   # [win]
+    script: build-pkg.sh  # [not win]
+    script: build-pkg.bat  # [win]
     requirements:
       build:
         - python                                 # [build_platform != target_platform]
