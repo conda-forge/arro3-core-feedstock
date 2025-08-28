@@ -9,7 +9,7 @@ source:
   sha256: 05e28290b6dfc323123c012c8f9da6976ba011ce1b6cce6b7147d3bb6a9ff277
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: arro3-core
