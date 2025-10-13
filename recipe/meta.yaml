@@ -1,4 +1,4 @@
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 
 package:
   name: arro3-core-modules
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kylebarron/arro3/archive/refs/tags/py-v{{ version }}.tar.gz
-  sha256: 5303d40ce0eebe5019c7b269fd595464dd155403be367e91489907945607b632
+  sha256: cdb9b0a6b17834310b197d064b0eafef27191dda0b342fca289b96325f0a354b
 
 build:
   # Build issue https://github.com/conda-forge/arro3-core-feedstock/pull/32
