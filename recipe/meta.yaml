@@ -10,8 +10,8 @@ source:
 
 build:
   # Build issue https://github.com/conda-forge/arro3-core-feedstock/pull/32
-  skip: true  # [py==3.14 and (aarch64 or ppc64le)]
-  number: 0
+  skip: true  # [ppc64le]
+  number: 1
 
 outputs:
   - name: arro3-core
