@@ -10,7 +10,7 @@ source:
 
 build:
   # Build issue https://github.com/conda-forge/arro3-core-feedstock/pull/32
-  skip: true  # ppc64le
+  skip: true  # [ppc64le]
   number: 1
 
 outputs:
